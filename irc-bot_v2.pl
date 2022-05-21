@@ -53,14 +53,16 @@ sub on_connect
 sub on_private
 {
     my ($conn, $event) = @_;
-   
-    if($time < 2){  #avoid flooding messages
-    	my $text = $event->{'args'}[0];
-    	my $response = decode_base64($text);
+    my $text = $event->{'args'}[0];
+    if($time == 0)
+    {
+        my $response = decode_base64($text);
     	$conn->privmsg('Candy', "!ep2 -rep $response");
-    	$time++;
-    	$conn->print("PRIVE<" . $event->nick() . ">\t| $text");
     }
-    
+    else
+    {
+       $conn->print("PRIVE<" . $event->nick() . ">\t| $text");
+    }
+    $time++;    
 } # Fin on_private
 
