@@ -2,7 +2,7 @@
 
 ## What is it ?
 
-A simple IRC bot written in perl.
+A simple IRC bot written in perl used to complete root-me [challenge 1](https://www.root-me.org/fr/Challenges/Programmation/IRC-Retour-au-college) and [challenge 2](https://www.root-me.org/fr/Challenges/Programmation/IRC-Chaine-encodee).
 
 ## Running 
 
