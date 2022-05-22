@@ -6,6 +6,6 @@ Some IRC bots written in perl used to complete root-me [challenge 1](https://www
 
 ## Running 
 
-```perl irc-bot.pl```
+``perl irc-bot.pl``
 
 You need [Net::IR] Chttps://metacpan.org/pod/Net::IRC) module.
