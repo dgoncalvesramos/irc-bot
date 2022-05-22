@@ -8,4 +8,4 @@ Some IRC bots written in perl used to complete root-me [challenge 1](https://www
 
 ``perl irc-bot.pl``
 
-You need [Net::IR](https://metacpan.org/pod/Net::IRC) module.
+You need [Net::IRC](https://metacpan.org/pod/Net::IRC) module.
